@@ -1,6 +1,6 @@
 ## recount2 datasets for cola analysis
 
-In this collection, cola analysis was applied to 229 recount2 datasets. Click following link to see how the data was processed and analyzed.
+In this collection, cola analysis was applied to 223 recount2 datasets. Click following link to see how the data was processed and analyzed.
 
 <details><summary>Data processing and analysis</summary>
 <p>
