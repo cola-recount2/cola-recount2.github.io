@@ -9,7 +9,7 @@ In this collection, cola analysis was applied to 223 recount2 datasets. Click fo
 <li><a href="https://github.com/jokergoo/cola_manuscript/tree/master/download">script for downloading and preprocessing</a></li>
 <li><a href="https://github.com/jokergoo/cola_manuscript/tree/master/test_cohort">script for cola analysis</a></li>
 </ul>
-<p>Users need to use R with version &gt;= 3.6.0 to read the <code>*.rds</code> files provided in the following table.</p>
+<p>The analysis were done with <a href='https://github.com/jokergoo/cola/releases/tag/1.3.2'>cola 1.3.2</a>. Users need to use R with version &gt;= 3.6.0 to read the <code>*.rds</code> files provided in the following table.</p>
 <p></p>
 
 </details>
