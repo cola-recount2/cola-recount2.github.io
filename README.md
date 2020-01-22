@@ -4,7 +4,7 @@ In this collection, *cola* analysis was applied to 223 recount2 datasets. Click 
 
 <details><summary>Data processing and analysis</summary>
 <p></p>
- <p>Recount datasets were downloaded from <a href="https://jhubiostatistics.shinyapps.io/recount/" rel="nofollow">recount2 website</a> on 2018-11-13 (see the sample list <a href="https://github.com/jokergoo/cola_manuscript/blob/master/download/recount_selection_2018-11-13_14_42_40.csv">here</a>). Datasets with more than 500 samples or less than 50 samples were removed. Also GTEx and TCGA datasets separated by tissues were downloaded. Row counts were normamlized by TPM method. Only the protein coding genes (defined by Gencode v25) were used. Genes that have less than 2 reads in more than 50% samples were removed. <code>log2(tpm + 1)</code> were used for cola analysis.</p>
+ <p>Recount datasets were downloaded from <a href="https://jhubiostatistics.shinyapps.io/recount/" rel="nofollow">recount2 website</a>on November 13, 2018 (see the sample list <a href="https://github.com/jokergoo/cola_manuscript/blob/master/download/recount_selection_2018-11-13_14_42_40.csv">here</a>). Datasets with more than 500 samples or less than 50 samples were removed. Also GTEx and TCGA datasets separated by tissues were downloaded. Row counts were normamlized by TPM method. Only the protein coding genes (defined by Gencode v25) were used. Genes that have less than 2 reads in more than 50% samples were removed. <code>log2(tpm + 1)</code> were used for cola analysis.</p>
 <ul>
 <li><a href="https://github.com/jokergoo/cola_manuscript/tree/master/download">script for downloading and preprocessing</a></li>
 <li><a href="https://github.com/jokergoo/cola_manuscript/tree/master/test_cohort">script for cola analysis</a></li>
